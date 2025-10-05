@@ -24,7 +24,7 @@ void LED_ON  (u8 PortId,u8 PinId)
 {
 	 DIO_SetPin( PortId, PinId, DIO_PIN_HIGH);
 }
-void LED_OF   (u8 PortId,u8 PinId)
+void LED_OFF   (u8 PortId,u8 PinId)
 {
 	DIO_SetPin( PortId, PinId, DIO_PIN_LOW);
 }

@@ -14,7 +14,7 @@
 /*LED_APIS*/
 void LED_SETIT(u8 PortId,u8 PinId);
 void LED_ON   (u8 PortId,u8 PinId);
-void LED_OF   (u8 PortId,u8 PinId);
+void LED_OFF   (u8 PortId,u8 PinId);
 void LED_TOG  (u8 PortId,u8 PinId);
 
 #endif /* LED_INTERFACE_H_ */

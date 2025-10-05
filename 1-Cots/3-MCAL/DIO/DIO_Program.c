@@ -8,11 +8,11 @@
 *****************************************************************************************************************************************
 */ 
 //the libs we need 
-#include"STO_TYPES.h"
-#include"BIT_MATH.h"
-#include"ATMEGA32_REG.h"
+#include "STO_TYPES.h"
+#include "BIT_MATH.h"
+#include "ATMEGA32_REG.h"
 /* MCAL*/
-#include"DIO_Interface.h"
+#include "DIO_Interface.h"
 
 void DIO_SetPinDirection(u8 PortId,u8 PinId,u8 PinDirection)
 {

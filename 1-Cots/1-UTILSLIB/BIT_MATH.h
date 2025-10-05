@@ -11,14 +11,14 @@
 #define BIT_MATH_H_
 
 //SET FUNCTION
-#define SET_BIT(REG,BIT_NUM) REG|=(1<<BIT_NUM)
-//CLR FUNCTION
-#define CLR_BIT(REG,BIT_NUM) REG&=(~(1<<BIT_NUM))
-//TOOGLE FUNCTION
-#define TOOGLE_BIT(REG,BIT_NUM) REG^=(1<<BIT_NUM)
-//READ FUNCTION
-#define READ_BIT(REG,BIT_NUM) ((REG>>BIT_NUM)&1)
-
+#define SET_BIT(REG,BIT_NUM)      REG|=(1<<BIT_NUM)
+//CLR FUNCTION                   
+#define CLR_BIT(REG,BIT_NUM)      REG&=(~(1<<BIT_NUM))
+//TOOGLE FUNCTION                
+#define TOOGLE_BIT(REG,BIT_NUM)   REG^=(1<<BIT_NUM)
+//READ FUNCTION                  
+#define READ_BIT(REG,BIT_NUM)    ((REG>>BIT_NUM)&1)
+							     
 
 
 #endif
